@@ -1,6 +1,6 @@
 {
   "name": "planetweight",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Saber como seria tu perso en marte o neptuno",
   "main": "dist/src/planetWeight.js",
   "scripts": {
