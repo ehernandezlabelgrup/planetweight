@@ -7,7 +7,8 @@ Esta es una libreria que te ayuda a calcular cuanto pesarias en marte y en meptu
 - La gravedad de la tierra es 9,807 m/s², y pesas 70kg
 - En marte pesarias 26,23kg, la gravedad es de 3,711 m/s²
 - En neptuno pesarias 78,84kg, la gravedad es de 11,15 m/s²
-
+## Ejemplo Codepen.io
+[https://codepen.io/emilio2505/pen/QMmxzj](https://codepen.io/emilio2505/pen/QMmxzj)
 ## Intalación
 
 ```
