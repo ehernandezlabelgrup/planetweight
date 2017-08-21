@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\erhpg\\Desktop\\Platzi\\conversor',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\erhpg\AppData\Roaming\npm-cache\planetweight\0.1.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\erhpg\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle planetweight@0.1.0~prepublish: planetweight@0.1.0
+11 silly lifecycle planetweight@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\erhpg\\AppData\\Roaming\\npm-cache\\planetweight\\0.1.0\\package.tgz',
+12 verbose tar pack   'C:\\Users\\erhpg\\Desktop\\Platzi\\conversor' ]
+13 verbose tarball C:\Users\erhpg\AppData\Roaming\npm-cache\planetweight\0.1.0\package.tgz
+14 verbose folder C:\Users\erhpg\Desktop\Platzi\conversor
+15 verbose addLocalTarball adding from inside cache C:\Users\erhpg\AppData\Roaming\npm-cache\planetweight\0.1.0\package.tgz
+16 verbose correctMkdir C:\Users\erhpg\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd planetweight@0.1.0
+18 verbose afterAdd C:\Users\erhpg\AppData\Roaming\npm-cache\planetweight\0.1.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\erhpg\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\erhpg\AppData\Roaming\npm-cache\planetweight\0.1.0\package\package.json written
+21 silly publish { name: 'planetweight',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'Saber como seria tu perso en marte o neptuno',
+21 silly publish   main: 'dist/src/planetWeight.js',
+21 silly publish   scripts: { build: 'babel src/planetweight.js -d dist', test: 'mocha' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/emiliowd/planet-weight.git' },
+21 silly publish   keywords:
+21 silly publish    [ 'planet',
+21 silly publish      'planets',
+21 silly publish      'weight',
+21 silly publish      'mars',
+21 silly publish      'marte',
+21 silly publish      'neptune',
+21 silly publish      'neptune',
+21 silly publish      'your',
+21 silly publish      'weight',
+21 silly publish      'measure',
+21 silly publish      'peso',
+21 silly publish      'conversor',
+21 silly publish      'measure',
+21 silly publish      'weight' ],
+21 silly publish   author:
+21 silly publish    { name: 'Emilio Hernandez',
+21 silly publish      email: 'eherna40@gmail.com',
+21 silly publish      url: 'https://www.linkedin.com/in/emilio-rafael-hernandez-perez-3a8bb540/' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/emiliowd/planet-weight/issues' },
+21 silly publish   homepage: 'https://github.com/emiliowd/planet-weight#readme',
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-cli': '^6.26.0',
+21 silly publish      'babel-preset-env': '^1.6.0',
+21 silly publish      chai: '^4.1.1',
+21 silly publish      mocha: '^3.5.0' },
+21 silly publish   directories: { test: 'test' },
+21 silly publish   readme: '# Planetweight\r\n\r\nEsta es una libreria que te ayuda a calcular cuanto pesarias en marte y en meptuno segun el peso de la tierra\r\n\r\n## Descripcion del idioma\r\n\r\n- La gravedad de la tierra es 9,807 m/s², y pesas 70kg\r\n- En marte pesarias 26,23kg, la gravedad es de 3,711 m/s²\r\n- En neptuno pesarias 78,84kg, la gravedad es de 11,15 m/s²\r\n\r\n## Intalación\r\n\r\n```\r\nnpm install planetweight\r\n```\r\n\r\n## Uso\r\n\r\n```\r\nimport planetweight form \'planetweight\'\r\nplanetweight(weight, planet)\r\nplanetweight(70, \'neptune\') //26,23kg\r\nplanetweight(70, \'mars\') // 78,84kg\r\n```\r\n\r\n## Créditos\r\n\r\n- [Emilio Hernandez](https://www.linkedin.com/in/emilio-rafael-hernandez-perez-3a8bb540/)\r\n\r\n## Licencia\r\n\r\n[MIT](https://opensource.org/licenses/MIT)# PlanetWeight',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '5958a6627c4964c1c91005b11a2357d5d9c32baf',
+21 silly publish   _id: 'planetweight@0.1.0',
+21 silly publish   _shasum: 'c9509f8b8333f5f4d1de9dc801ac178a724a6b96',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name planetweight
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'planetweight',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'planetweight',
+26 silly mapToRegistry   name: 'planetweight',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/planetweight
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\erhpg\AppData\Roaming\npm-cache\planetweight\0.1.0\package.tgz
+30 verbose request uri https://registry.npmjs.org/planetweight
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 11:56:13
+33 verbose request using bearer token for auth
+34 verbose request id 4f792e878a55924a
+35 http request PUT https://registry.npmjs.org/planetweight
+36 http 403 https://registry.npmjs.org/planetweight
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 21 Aug 2017 09:56:12 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-mad9433-MAD',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1503309372.000801,VS0,VE969',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating C:\Users\erhpg\AppData\Roaming\npm-cache\registry.npmjs.org\planetweight on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.1.0." : planetweight
+40 verbose stack     at makeError (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid planetweight
+43 verbose cwd C:\Users\erhpg\Desktop\Platzi\conversor
+44 error Windows_NT 10.0.15063
+45 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.11.2
+47 error npm  v3.10.10
+48 error code E403
+49 error "You cannot publish over the previously published version 0.1.0." : planetweight
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

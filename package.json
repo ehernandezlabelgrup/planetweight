@@ -30,9 +30,9 @@
   "author": "Emilio Hernandez <eherna40@gmail.com> (https://www.linkedin.com/in/emilio-rafael-hernandez-perez-3a8bb540/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emiliowd/planet-weight/issues"
+    "url": "https://github.com/emiliowd/planetweight/issues"
   },
-  "homepage": "https://github.com/emiliowd/planet-weight#readme",
+  "homepage": "https://github.com/emiliowd/planetweight#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",

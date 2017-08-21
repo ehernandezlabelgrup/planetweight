@@ -17,7 +17,7 @@ npm install planetweight
 ## Uso
 
 ```
-import planetWeight form 'planetWeight'
+import planetweight form 'planetweight'
 planetweight(weight, planet)
 planetweight(70, 'neptune') //26,23kg
 planetweight(70, 'mars') // 78,84kg
