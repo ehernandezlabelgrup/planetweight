@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col l2 m4 offset-l5 offset-m4 s6  offset-s3 center">
+                     <div class="col l4 m4 hide-on-med-and-up s12 center">
+                        <h4>TU PESO EN OTROS<br>PLANETAS</h4>
+                    </div>
+                    <input id = "weight" type="number" class="center" placeholder="Introduce tu peso" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l12 m12 s12 planets">
+                    <div class="col l4 m4 s12 mars center">
+                        <div class="planet"></div>
+                        <div class="weight center">
+                            <p>Peso en Marte</p>
+                            <span id="weightMars">40kg</span>
+                        </div>
+                    </div>
+                    <div class="col l4 m4 hide-on-small-only s12 center">
+                        <h4>TU PESO EN OTROS<br>PLANETAS</h4>
+                    </div>
+                    <div class="col l4 m4 s12 neptune">
+                        <div class="planet center"></div>
+                        <div class="weight center">
+                            <p>Peso en Neptuno</p>
+                            <span id="weightNeptune">50kg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src= "index.js"></script>
+    </body>
+</html>

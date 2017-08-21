@@ -1,0 +1,45 @@
+{
+  "name": "planetweight",
+  "version": "0.1.0",
+  "description": "Saber como seria tu perso en marte o neptuno",
+  "main": "dist/src/planetWeight.js",
+  "scripts": {
+    "build": "babel src/planetweight.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliowd/planet-weight.git"
+  },
+  "keywords": [
+    "planet",
+    "planets",
+    "weight",
+    "mars",
+    "marte",
+    "neptune",
+    "neptune",
+    "your",
+    "weight",
+    "measure",
+    "peso",
+    "conversor",
+    "measure",
+    "weight"
+  ],
+  "author": "Emilio Hernandez <eherna40@gmail.com> (https://www.linkedin.com/in/emilio-rafael-hernandez-perez-3a8bb540/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiliowd/planet-weight/issues"
+  },
+  "homepage": "https://github.com/emiliowd/planet-weight#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
